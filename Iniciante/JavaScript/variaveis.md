@@ -4,7 +4,7 @@
 
 Declara uma variável, opcionalmente, inicializando-a com um valor.
 
-```jsx
+```js
 var nome = "Nero";
 ```
 
@@ -12,7 +12,7 @@ var nome = "Nero";
 
 Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.
 
-```jsx
+```js
 let nome = "Nero";
 ```
 
@@ -20,7 +20,7 @@ let nome = "Nero";
 
 Declara uma constante de escopo de bloco, apenas de leitura.
 
-```jsx
+```js
 const nome = "Nero";
 ```
 

@@ -1,3 +1,12 @@
+Ferramentas para os estudos:
+
+[JavaScript Playground](https://playcode.io/javascript)
+
+[Tryit Compiler v1.0](https://www.w3schools.com/tryit/trycompiler.asp?filename=demo_nodejs)
+
+[CodePen](https://codepen.io/)
+
+
 **JavaScript** (frequentemente abreviado como **JS**) é uma linguagem de programação leve, interpretada e orientada a objetos com [funções de primeira classe](https://en.wikipedia.org/wiki/First-class_functions), conhecida como a linguagem de scripting para páginas Web, mas também [utilizada em muitos ambientes fora dos navegadores](https://en.wikipedia.org/wiki/JavaScript#Uses_outside_web_pages).
 Ela é uma linguagem de scripting [baseada em protótipos](https://en.wikipedia.org/wiki/Prototype-based_programming), multi-paradigma e dinâmica, suportando os estilos orientado a objetos, imperativo e funcional.
 
@@ -8,16 +17,16 @@ Ela é uma linguagem de scripting [baseada em protótipos](https://en.wikipedia
     
     Em JavaScript, Strings são valores compostos de texto e podem conter letras, números, símbolos, pontuação e até emojis!
     
-    ```jsx
-    'Isto é uma corda. 👏';
-    "Esta é a 2ª corda. 💁";
+    ```js
+        'Isto é um conteúdo. 👏';
+        "Esta é o 2ª conteúdo. 💁";
     ```
     
 - **Number**
     Números são valores que podem ser usados em operações matemáticas. Você não precisa de nenhuma sintaxe especial para números — basta escrevê-los diretamente no JavaScript.
     
-    ```jsx
-    12345;
+    ```js
+        12345;
     ```
     
     [Number - Glossário | MDN](https://developer.mozilla.org/pt-BR/docs/Glossary/Number)
