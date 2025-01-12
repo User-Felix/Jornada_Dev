@@ -28,18 +28,18 @@ também terá os projetos que desenvolvi durante minha graduação, utilizando p
 
 ### Sumario
 
-01 [Inicio](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/incio.md)`Inciante`
+01 [Inicio](https://github.com/User-Felix/Jornada_Dev/blob/666f1e7805872cab59b1abed9e1735b5352201c8/Iniciante/JavaScript/inicio.md)  `Inciante`
 
-02 [Variaveis](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/variaveis.md) `Inciante`
+02 [Variaveis](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/variaveis.md)  `Inciante`
 
 03 [Tipos primotivos](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/tiposPrimitivos.md) `Inciante`
 
-04 [Condicionais](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/condicionais.md) `Inciante`
+04 [Condicionais](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/condicionais.md)  `Inciante`
 
-05 [Loops](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/loops.md) `Inciante`
+05 [Loops](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/loops.md)  `Inciante`
 
-06 [funções](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/funcoes.md) `Inciante`
+06 [funções](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/funcoes.md)  `Inciante`
 
-07 [Arrays](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/arrays.md) `Inciante`
+07 [Arrays](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Iniciante/JavaScript/arrays.md)  `Inciante`
 
-08 [Arrays](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Intermediario/JavaScript/arrays.md) `Intermediario`
+08 [Arrays](https://github.com/User-Felix/Jornada_Dev/blob/3792b7b3d8eeff9f63d0c450750c127b9e05603c/Intermediario/JavaScript/arrays.md)  `Intermediario`
