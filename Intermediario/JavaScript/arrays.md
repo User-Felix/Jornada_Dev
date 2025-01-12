@@ -126,6 +126,8 @@ Retorna o índice do primeiro elemento que passa no teste.
 
 ***sort()***
 
+O método permite ordenar os elementos de um array.
+
 ```js
     const numeros = [4, 2, 5, 1, 3];
     numeros.sort((a, b) => a - b); // Crescente
