@@ -31,3 +31,22 @@ Exemplo das duas funções:
     // Arrow function equivalente
     const soma = (a, b) => a + b;
 ```
+
+
+### Currying: Compondo Funções
+
+Currying é uma técnica que permite **transformar uma função que recebe múltiplos argumentos em uma série de funções que recebem um argumento de cada vez**:
+
+```js
+    function somarCurried(x) {
+    return function(y) {
+        return x + y;
+    };
+    }
+
+    let somar5 = somarCurried(5); // Retorna uma função que soma 5 a outro valor
+    console.log(somar5(3)); // Exibe 8
+
+```
+
+O Currying **promove a composição de funções**, tornando o código mais modular e reutilizável.
