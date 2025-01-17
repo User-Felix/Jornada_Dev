@@ -39,9 +39,9 @@ Currying é uma técnica que permite **transformar uma função que recebe múlt
 
 ```js
     function somarCurried(x) {
-    return function(y) {
-        return x + y;
-    };
+        return function(y) {
+            return x + y;
+        };
     }
 
     let somar5 = somarCurried(5); // Retorna uma função que soma 5 a outro valor

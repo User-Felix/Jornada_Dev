@@ -1,25 +1,23 @@
 **As funções JavaScript** são blocos de código reutilizáveis que executam uma tarefa específica, recebendo alguma forma de entrada e retornando uma saída.
 
-Para definir uma função, você deve usar a palavra-chave **function** , seguida de um **name** , seguido de parênteses **( )**.  Então você tem que escrever a lógica da função entre colchetes **{}**
-
 Aqui está um exemplo de como escrever uma função em JavaScript:
 
-```jsx
+```js
     function nomeDaFucao(parametros) {
     //aqui é escrito a logica para a fução
     }
-    //chamando a função
+    //chamando a função para execução
     nomeDaFuncao()
 ```
 
-```jsx
+```js
     function somaDoisNumeros(x, y) {
 
             console.log(x + y;)
 
     }
 
-    somaDoisNumeros(10 ,15);
+    somaDoisNumeros(10 ,15)
 ```
 
 Vamos analisar cada parte individualmente do codigo a cima.
