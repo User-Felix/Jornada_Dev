@@ -50,3 +50,51 @@ Currying é uma técnica que permite **transformar uma função que recebe múlt
 ```
 
 O Currying **promove a composição de funções**, tornando o código mais modular e reutilizável.
+
+### Usando function dentro de Arrays:
+
+Podemos guardar uma função em um array para chamar ela de dentro do array?
+
+Sim, isso é útil quando você deseja criar um conjunto de funções reutilizáveis e acessá-las dinamicamente, podemos até substituir o uso do switch case.
+
+Você pode armazenar funções em um array e chamá-las através do índice do array:
+
+
+
+```javascript
+// Definindo algumas funções
+function saudacao() {
+    console.log("Olá!");
+}
+
+function despedida() {
+    console.log("Tchau!");
+}
+
+function olaNome(nome) {
+    console.log(`Olá, ${nome}!`);
+}
+
+// Criando um array de funções
+const funcoes = [saudacao, despedida, olaNome];
+
+// Chamando funções pelo índice
+funcoes[0](); // Executa saudacao(), imprime "Olá!"
+funcoes[1](); // Executa despedida(), imprime "Tchau!"
+funcoes[2]("Carlos"); // Imprime "Olá, Wendy"
+```
+
+### Usando arrow functions diretamente no array:
+
+
+```javascript
+const funcoes = [
+    () => console.log("Função 1"),
+    () => console.log("Função 2"),
+    (nome) => console.log(`Olá, ${nome}!`)
+];
+
+funcoes[0](); // Imprime "Função 1"
+funcoes[1](); // Imprime "Função 2"
+funcoes[2]("Maria"); // Imprime "Olá, Maria!"
+```
