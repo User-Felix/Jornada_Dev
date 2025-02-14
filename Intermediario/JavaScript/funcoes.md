@@ -55,46 +55,73 @@ O Currying **promove a composição de funções**, tornando o código mais modu
 
 Podemos guardar uma função em um array para chamar ela de dentro do array?
 
-Sim, isso é útil quando você deseja criar um conjunto de funções reutilizáveis e acessá-las dinamicamente, podemos até substituir o uso do switch case.
+Sim, isso é útil quando você deseja criar um conjunto de funções reutilizáveis e acessá-las dinamicamente, podemos até substituir o uso do if e switch case.
 
 Você pode armazenar funções em um array e chamá-las através do índice do array:
 
 
 
 ```javascript
-// Definindo algumas funções
-function saudacao() {
-    console.log("Olá!");
-}
+    // Definindo algumas funções
+    function saudacao() {
+        console.log("Olá!");
+    }
 
-function despedida() {
-    console.log("Tchau!");
-}
+    function despedida() {
+        console.log("Tchau!");
+    }
 
-function olaNome(nome) {
-    console.log(`Olá, ${nome}!`);
-}
+    function olaNome(nome) {
+        console.log(`Olá, ${nome}!`);
+    }
 
-// Criando um array de funções
-const funcoes = [saudacao, despedida, olaNome];
+    // Criando um array de funções
+    const funcoes = [saudacao, despedida, olaNome];
 
-// Chamando funções pelo índice
-funcoes[0](); // Executa saudacao(), imprime "Olá!"
-funcoes[1](); // Executa despedida(), imprime "Tchau!"
-funcoes[2]("Carlos"); // Imprime "Olá, Wendy"
+    // Chamando funções pelo índice
+    funcoes[0](); // Executa saudacao(), imprime "Olá!"
+    funcoes[1](); // Executa despedida(), imprime "Tchau!"
+    funcoes[2]("Wendy"); // Imprime "Olá, Wendy"
 ```
 
 ### Usando arrow functions diretamente no array:
 
 
 ```javascript
-const funcoes = [
-    () => console.log("Função 1"),
-    () => console.log("Função 2"),
-    (nome) => console.log(`Olá, ${nome}!`)
-];
+    const funcoes = [
+        () => console.log("Função 1"),
+        () => console.log("Função 2"),
+        (nome) => console.log(`Olá, ${nome}!`)
+    ];
 
-funcoes[0](); // Imprime "Função 1"
-funcoes[1](); // Imprime "Função 2"
-funcoes[2]("Maria"); // Imprime "Olá, Maria!"
+    funcoes[0](); // Imprime "Função 1"
+    funcoes[1](); // Imprime "Função 2"
+    funcoes[2]("Maria"); // Imprime "Olá, Maria!"
+```
+### Trocando o If e o Switch case:
+
+No exemplo a função simples chamada convertToHex que converte uma determinada cor (representada por uma string) em seu equivalente hexadecimal.
+
+Font: Roger Melo
+
+```javascript
+
+    const convertToHex = color => {
+        const colors = {
+            red: '#A31419',
+            green: '#18A337',
+            blue: '#4C91F0',
+            yellow: '#F0EA6F',
+            purple: '#8132A3'
+        }
+
+        return colors[color] 
+            ? `O hexadecimal para a cor ${color} é ${colors[color]}` 
+            : `Não temos o equivalente hexadecimal para ${color}`; 
+    }
+
+    const colors = ['red','green','blue','yellow','purple']
+
+    console.log(convertToHex('blue'))
+
 ```
